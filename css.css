@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+}
+.userDetails{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.userContainer{
+display: flex;
+justify-content: space-between;
+padding:2em;
+margin: 2em;
+width :20em;
+height:10em;
+border: 1px solid black;
+}
+.main{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 60em;
+   padding: 2em;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.userImage{
+    height: 10em;
+    width: 10em;
+}
+
+.repoImage{
+    height: 5em;
+    width: 5em;
+}
+
+.title{
+    display: none;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 60em;
+    font-size: 2em;
+    padding-left:30px;
+    font-weight: bold;
+}
